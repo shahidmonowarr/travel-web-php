@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Volkhov", serif;
+}
+/* global */
+.container{
+    max-width: 1160px;
+    margin: auto;
+    
+}
+.section-intro{
+    text-align: center;
+}
+.section-intro h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #14183E;
+    margin-bottom: 24px;
+}
+.section-intro p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-bg{
+    background-image: url(assets/Decore.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    font-weight: 600;
+    color: #212832;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.menu-item{
+    cursor: pointer;
+    margin: 0 6px;
+    padding: 6px 15px;
+}
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.intro-text{
+    max-width: 50%;
+}
+.highlight{
+    position: relative;
+}
+.highlight::after{
+    content: url(assets/h2-underline.png);
+    position: absolute;
+    width: 90%;
+    left: 0;
+    top: 20px;
+    z-index: -1;
+
+}
+.intro-text h1{
+    color: #181E4B;
+    letter-spacing: -0.04em;
+    font-size: 84px;
+
+}
+.intro-image img{
+    width: 100%;
+}
+
+/* catagory section */
+
+.catagory-section{
+    text-align: center;
+}
+.catagories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-catagory{
+    cursor: pointer;
+    padding: 40px;
+    margin: 16px 10px;
+    border-radius: 36px;
+    width: 250px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.02);
+    transition: all ease-in-out 0.5s;
+}
+.single-catagory:hover{
+    box-shadow: 0 100px 80px rgba(0.05,0,0,0.05); 
+}
+
+/* top destinations section */
+.destinations-section{
+    text-align: center;
+}
+.destinations{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.single-destination{
+    max-width: 300px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    box-shadow: 0 100px 80px rgba(0,0,0,0.06);
+    overflow: hidden;
+}
+.single-destination:hover{
+    box-shadow: 0 200px 80px rgba(0,0,0,0.05); 
+    
+}
+.single-destination img{
+    width: 100%;
+    border-radius: 24px;
+    height: 327px;
+    object-fit:cover;
+}
+.single-destination p{
+    padding: 0 16px 10px;
+}
+
+/* brand section */
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brand img{
+    width: 100%;
+}
+
+/* subscribe section */
+.subscribe-section .container{
+    padding: 80px;
+    border-radius: 20px;
+    background: #DFD7F9 url(assets/subscribe-decor-left.png) no-repeat bottom left;
+}
+.subscribe-section h2{
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+.input-group{
+    margin-top: 10px;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.subscribe-section input{
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/*booking*/
+.booking{
+    padding-top:50px ;
+}
+.booking .book-form{
+    margin: 100px;
+    padding:2rem;
+    background: black;
+ }
+ 
+ .booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+ }
+ 
+ .booking .book-form .flex .inputBox{
+    flex:1 1 41rem;
+ }
+ 
+ .booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color:rgb(17, 15, 15);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border:1rem solid #222;
+ }
+ 
+ .booking .book-form .flex .inputBox input:focus{
+    background: #222;
+    color:#fff;
+ }
+ 
+ .booking .book-form .flex .inputBox input:focus::placeholder{
+    color:#DFD7F9;
+ }
+ 
+ .booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color:#222;
+ }
+ 
+ .booking .book-form .btn{
+    margin-top: 2rem;
+ }
+
+ .btn{
+    display: inline-block;
+    background: #222;;
+    margin-top: 10px;
+    color:#fff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding:15px 25px;
+    cursor: pointer;
+ }
+ 
+ .btn:hover{
+    background: goldenrod;
+ }
+
+
+/* about us */
+.about{
+    margin: 50px 70px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+ }
+ 
+ 
+ .about .image img{
+     border-radius: 10px;
+    width: 100%;
+ }
+ 
+ .about .content{
+    flex:1 1 30rem;
+    text-align: center;
+ }
+ 
+ .about .content h3{
+    font-size: 3rem;
+    color:#222;
+ }
+ 
+ .about .content p{
+    font-size: 1.5rem;
+    color:rgb(60, 58, 58);
+    line-height: 2;
+    padding:1rem 0;
+ }
+ 
+ .about .content .icons-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    align-items: flex-end;
+ }
+ 
+ .about .content .icons-container .icons{
+    background: rgb(60, 58, 58);
+    padding:2rem;
+    flex:1 1 16rem;
+    border-radius: 20px;
+    cursor: pointer;
+    
+ }
+ 
+ .about .content .icons-container .icons span{
+    font-size: 1.5rem;
+    color:#222;
+    display:block;
+    color: #fff;
+    
+ }
+ 
+
+
+/* footer */
+.footer-content{
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer p{
+    text-align: center;
+}
+.footer-content .social-icon{
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1440px) {
+    .container{
+        width: 80%;
+    }
+    
+}
+
+
+.navbar{
+    display: none;
+}
+/* tablet */
+@media screen and (max-width:768px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .highlight{
+        display: none;
+    }
+    .brands{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:425px){
+    .container{
+        width: 90%;
+    }
+    .hero-section h1{
+        font-size: 50px;
+    }
+    .highlight{
+        display: none;
+    }
+    .subscribe-section .container{
+        padding: 35px;
+    }
+    .subscribe-section h2{
+        width: 100%;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content .logo{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .footer-content .logo img{
+        max-width: 80px;
+    }
+    .intro-text{
+        width: 100%;
+    }
+    
+}
