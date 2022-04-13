@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
+<section class="header container">
+
+        <a href="index.html" class="logo"><img src="assets/Logo.jpg" style="width: 300px;" alt="" /></a>
+     
+        
+           <a href="index.html">Home</a>
+           <a href="about.html">About</a>
+           <a href="packages.html">Packages</a>
+           <a href="book.php">Book</a>
+        
+     
+        <div id="menu-btn" class="fas fa-bars"></div>
+     
+     </section>
 <!-- booking section starts  -->
 
 <section class="booking">

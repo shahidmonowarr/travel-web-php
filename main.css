@@ -11,15 +11,36 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Volkhov", serif;
 }
+
 /* global */
+.hero-bg{
+    background-image: url(assets/Decore.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
 .container{
     max-width: 1160px;
     margin: auto;
     
 }
+
+.header{
+    position: sticky;
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+
+ .header a{
+     text-decoration: none;
+ }
 .section-intro{
     text-align: center;
 }
+
 .section-intro h2{
     font-size: 50px;
     font-weight: 700;
@@ -30,27 +51,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 18px;
     font-weight: 600;
 }
-.hero-bg{
-    background-image: url(assets/Decore.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-}
+
 
 /* hero-section */
-.header{
-    position: sticky;
-    background-color: #fff;
-    display: flex;
-    padding-bottom: 20px;
-    box-shadow: rgba(0,0,0,.1);
-    align-items: center;
-    justify-content: space-between;
- }
- 
 
- .header a{
-     text-decoration: none;
- }
 
 
 .hero-section{
@@ -164,12 +168,6 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.subscribe-section input{
-    padding: 15px 30px;
-    border-radius: 6px;
-    border: none;
-    outline: none;
 }
 
 /*booking*/
