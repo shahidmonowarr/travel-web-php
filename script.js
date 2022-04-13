@@ -1,3 +1,6 @@
+
+
+
 let loadMoreBtn = document.querySelector('.destinations-section .load-more .btn');
 let currentItem = 2;
 
@@ -11,3 +14,4 @@ loadMoreBtn.onclick = () =>{
       loadMoreBtn.style.display = 'none';
    }
 }
+

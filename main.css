@@ -35,28 +35,23 @@ h1,h2,h3,h4,h5,h6{
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
-/* navbar */
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0;
-    font-weight: 600;
-    color: #212832;
-}
-.nav-menu{
-    list-style: none;
-    display: flex;
-    align-items: center;
-
-}
-.menu-item{
-    cursor: pointer;
-    margin: 0 6px;
-    padding: 6px 15px;
-}
 
 /* hero-section */
+.header{
+    position: sticky;
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 20px;
+    box-shadow: rgba(0,0,0,.1);
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+
+ .header a{
+     text-decoration: none;
+ }
+
 
 .hero-section{
     display: flex;
@@ -298,6 +293,53 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     
  }
+
+ /* login */
+ .form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  h1 {
+    color: rgb(80, 153, 15);
+    font-size: 40px;
+    text-align: center;
+  }
+ 
+  .label {
+    font-size: large;
+    font-weight: bold;
+  }
+ 
+  #firstName,
+  #lastName,
+  #email,
+  #password1,
+  #password2 {
+    padding: 5px 10px;
+    font-size: large;
+    width: 300px;
+  }
+ 
+  #btn {
+    background-color: rgb(10, 4, 69);
+    color: white;
+    padding: 8px 15px;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+  }
+ 
+  #btn:hover {
+    background-color: rgba(12, 53, 2, 0.774);
+    transition: 1s;
+  }
+
  
 
 
@@ -307,6 +349,9 @@ h1,h2,h3,h4,h5,h6{
     padding: 40px 0;
     align-items: center;
     justify-content: space-evenly;
+}
+.footer-link a{
+    text-decoration: none;
 }
 .footer p{
     text-align: center;
